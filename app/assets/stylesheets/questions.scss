@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+
+}
+.question {
+background-color: white;
+padding: 20px 50px 30px 10px;
+border-left: solid #c9bbbb 10px;
+margin-right: 100px;
+margin-bottom: 40px;
+}
+
+.answer {
+background-color: #f8f9ce;;
+padding: 20px 50px 30px 10px;
+border-left: solid #c9bbbb 10px;
+margin-right: 400px;
+}
+
+.btn-treehouse {
+  text-decoration: none;
+  background-color: #5ebb5e;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 3px;
+  box-shadow:  0px 0px 0px 0px rgba(0, 0, 3, 0.2);
+}
+
+.btn-treehouse:hover {
+  background-color: #2f9e2f;
+}
+
+.user_input {
+  border: solid #5ebb5e 2px;
+  height: 2.5rem;
+  width: 28rem;
+}
+
